@@ -1,0 +1,26 @@
+** start of script.js **
+
+function fearNotLetter(string) {
+  let alphabet = ["a", "b", "c", "d","e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+
+  let lettersArray = string.split("");
+
+  let firstLetterIndex = alphabet.indexOf(string[0]);
+  let lastLetterIndex = alphabet.indexOf(string[string.length - 1]);
+
+  let alphabetSlice = alphabet.splice(firstLetterIndex, lastLetterIndex + 1);
+
+
+  for (let i=0; i<=alphabetSlice.length; i++) {
+    if (lettersArray.includes(alphabetSlice[i])) {
+      continue;
+    } else {
+      return alphabetSlice[i];
+    }
+  }
+}
+
+console.log(fearNotLetter("abce"));
+
+** end of script.js **
+
