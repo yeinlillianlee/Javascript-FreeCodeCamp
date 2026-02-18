@@ -1,5 +1,3 @@
-** start of script.js **
-
 let contacts = [
   {
     firstName: "Akira",
@@ -45,8 +43,3 @@ function lookUpProfile(name, property) {
 }
 
 console.log(lookUpProfile("Akira", "address"));
-
-
-
-** end of script.js **
-
