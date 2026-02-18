@@ -1,5 +1,3 @@
-** start of script.js **
-
 function fearNotLetter(string) {
   let alphabet = ["a", "b", "c", "d","e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
@@ -21,6 +19,3 @@ function fearNotLetter(string) {
 }
 
 console.log(fearNotLetter("abce"));
-
-** end of script.js **
-

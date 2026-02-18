@@ -1,5 +1,3 @@
-** start of script.js **
-
 function repeatStringNumTimes(string, number) {
   let array = [];
   for(let i=1; i<=number; i++) {
@@ -15,6 +13,3 @@ function repeatStringNumTimes(string, number) {
 }
 
 console.log(repeatStringNumTimes("*", 3));
-
-** end of script.js **
-
